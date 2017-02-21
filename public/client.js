@@ -6,13 +6,13 @@ Functions take in some data, and do something with that data.
 
 // Basic Function
 
-function addUp(num1, num2) {
-  return num1 + num2 
+function addUp(num1, num2) {  // pass in two numbers
+  return num1 + num2   // function spits out (returns) the sum of adding the numbers together
 }
 
 let addUpAnswer = addUp(2, 3)  // assign the result of addUp(2,3) to the variable addUpAnswer
 
-console.log('addUpAnswer: ', addUpAnswer)
+console.log('addUpAnswer: ', addUpAnswer)  // console.log the addUpAnswer variable
 
 /* 
 
